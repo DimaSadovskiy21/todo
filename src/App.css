@@ -1,0 +1,34 @@
+.App {
+  padding: 30px;
+  display: flex;
+}
+
+.App > div {
+  margin-right: 50px;
+}
+
+.isDone {
+  text-decoration: line-through;
+  
+}
+
+.notIsDone {
+  font-weight: bold;
+}
+
+.activeFilter {
+  color: white;
+  font-weight: bold;
+  background-color: hotpink;
+  border-color: hotpink;
+  border-radius: 3px;
+ border: 2px solid hotpink
+}
+
+.inputError {
+  border: 3px solid hotpink;
+}
+
+.deleteButton {
+  height: 10px;
+}
